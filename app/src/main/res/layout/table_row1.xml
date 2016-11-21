@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/table_rule1"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/table_rule2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="@string/monday"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/table_rule2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="@string/tuesday"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/table_rule2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="@string/wednesday"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/table_rule2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="@string/thursday"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/table_rule2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="@string/friday"/>
+
+</TableRow>
