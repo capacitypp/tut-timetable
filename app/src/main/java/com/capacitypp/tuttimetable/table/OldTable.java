@@ -1,8 +1,6 @@
 package com.capacitypp.tuttimetable.table;
 
 import android.app.Activity;
-import android.content.Context;
-import android.widget.Toast;
 
 import com.capacitypp.tuttimetable.debug.ErrorDialog;
 
@@ -14,10 +12,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-
-/**
- * Created by capacitypp on 11/22/16.
- */
 
 public class OldTable {
     private OldClass[][] table;
@@ -31,10 +25,8 @@ public class OldTable {
         FileInputStream fis = activity.openFileInput(fileName);
         BufferedReader in = new BufferedReader(new InputStreamReader(fis));
         try {
-            for (int i = 0; i < table.length; i++) {
-                OldClass[] row = table[i];
-                for (int j = 0; j < row.length; j++) {
-                    OldClass _class = row[j];
+            for (OldClass[] row : table) {
+                for (OldClass _class : row) {
                     _class.setTitle(in.readLine());
                     _class.setTeacher(in.readLine());
                     _class.setPlace(in.readLine());

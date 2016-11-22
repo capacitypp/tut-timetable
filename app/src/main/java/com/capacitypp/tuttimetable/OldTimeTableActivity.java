@@ -1,6 +1,5 @@
 package com.capacitypp.tuttimetable;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,14 +13,7 @@ import android.widget.Toast;
 import com.capacitypp.tuttimetable.table.OldClass;
 import com.capacitypp.tuttimetable.table.OldTable;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class OldTimeTableActivity extends AppCompatActivity implements View.OnClickListener{
     private OldTable table;
@@ -41,7 +33,7 @@ public class OldTimeTableActivity extends AppCompatActivity implements View.OnCl
         for (int i = 1; i <= 6; i++) {
             TableRow tr = (TableRow)vg.getChildAt(i);
             for (int j = 1; j <= 5; j++) {
-                View v = (View)tr.getChildAt(j);
+                View v = tr.getChildAt(j);
                 v.setClickable(true);
                 v.setOnClickListener(this);
                 v.setId(i * 10 + j);
@@ -65,7 +57,7 @@ public class OldTimeTableActivity extends AppCompatActivity implements View.OnCl
         int id = view.getId();
         int i = id / 10 - 1;
         int j = (id % 10) - 1;
-        Toast.makeText(this, "(" + i + ", " + j + ")", Toast.LENGTH_SHORT);
+        Toast.makeText(this, "(" + i + ", " + j + ")", Toast.LENGTH_SHORT).show();
     }
 
     public void setClassView() {

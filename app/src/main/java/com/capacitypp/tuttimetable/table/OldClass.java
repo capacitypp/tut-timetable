@@ -1,9 +1,5 @@
 package com.capacitypp.tuttimetable.table;
 
-/**
- * Created by capacitypp on 11/22/16.
- */
-
 public class OldClass {
     private String title;
     private String teacher;
