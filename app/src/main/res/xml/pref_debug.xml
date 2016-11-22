@@ -4,6 +4,11 @@
          when checked/unchecked. -->
     <SwitchPreference
         android:defaultValue="true"
+        android:key="warnings_switch"
+        android:summary="@string/pref_description_warnings"
+        android:title="@string/pref_title_warnings" />
+    <SwitchPreference
+        android:defaultValue="true"
         android:key="notifications_new_message"
         android:title="@string/pref_title_new_message_notifications" />
 

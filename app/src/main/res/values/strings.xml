@@ -109,8 +109,10 @@
     <string name="pref_title_system_sync_settings">System sync settings</string>
 
     <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_debug">デバッグ</string>
 
+    <string name="pref_title_warnings">致命的でないエラーを無視する</string>
+    <string name="pref_description_warnings">OFFにすると，致命的でないエラーを表示するようになります</string>
     <string name="pref_title_new_message_notifications">New message notifications</string>
 
     <string name="pref_title_ringtone">Ringtone</string>
