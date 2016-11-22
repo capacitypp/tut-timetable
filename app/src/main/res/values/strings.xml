@@ -38,7 +38,7 @@
     <string name="pref_default_display_name">John Smith</string>
 
     <string name="pref_title_grade">学年</string>
-    <string-array name="pref_grade_titles">
+    <string-array name="pref_grade_list_titles">
         <item>未設定</item>
         <item>B1</item>
         <item>B2</item>
@@ -47,7 +47,7 @@
         <item>M1</item>
         <item>M2</item>
     </string-array>
-    <string-array name="pref_grade_values">
+    <string-array name="pref_grade_list_values">
         <item>-1</item>
         <item>0</item>
         <item>1</item>

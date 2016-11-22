@@ -2,9 +2,9 @@
 
     <ListPreference
         android:defaultValue="-1"
-        android:entries="@array/pref_grade_titles"
-        android:entryValues="@array/pref_grade_values"
-        android:key="grade"
+        android:entries="@array/pref_grade_list_titles"
+        android:entryValues="@array/pref_grade_list_values"
+        android:key="grade_list"
         android:negativeButtonText="@null"
         android:positiveButtonText="@null"
         android:title="@string/pref_title_grade" />
