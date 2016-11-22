@@ -72,7 +72,15 @@
     <string name="pref_description_notification">OFFにすると，新しい休講・補講情報の通知を行わなくなります</string>
 
     <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_gui">GUI</string>
+
+    <string name="pref_title_timetable">使用する時間割</string>
+    <string-array name="pref_timetable_list_titles">
+        <item>旧時間割</item>
+    </string-array>
+    <string-array name="pref_timetable_list_values">
+        <item>0</item>
+    </string-array>
 
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string-array name="pref_sync_frequency_titles">
