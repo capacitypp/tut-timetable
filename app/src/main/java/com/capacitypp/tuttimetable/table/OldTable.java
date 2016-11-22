@@ -49,10 +49,8 @@ public class OldTable {
         BufferedWriter out = new BufferedWriter(new OutputStreamWriter(fos));
 
         try {
-            for (int i = 0; i < table.length; i++) {
-                OldClass[] row = table[i];
-                for (int j = 0; j < row.length; j++) {
-                    OldClass _class = row[j];
+            for (OldClass[] row : table) {
+                for (OldClass _class : row) {
                     out.write(_class.getTitle() + "\n");
                     out.write(_class.getTeacher() + "\n");
                     out.write(_class.getPlace() + "\n");
