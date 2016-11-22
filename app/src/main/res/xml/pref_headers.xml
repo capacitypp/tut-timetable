@@ -13,7 +13,7 @@
         android:title="@string/pref_header_debug" />
 
     <header
-        android:fragment="com.capacitypp.tuttimetable.SettingsActivity$DataSyncPreferenceFragment"
+        android:fragment="com.capacitypp.tuttimetable.SettingsActivity$GuiPreferenceFragment"
         android:icon="@drawable/ic_info_black_24dp"
         android:title="@string/pref_header_gui" />
 

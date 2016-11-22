@@ -3,14 +3,24 @@
     <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
          dismiss it. -->
     <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
-    <ListPreference
-        android:defaultValue="0"
-        android:entries="@array/pref_timetable_list_titles"
-        android:entryValues="@array/pref_timetable_list_values"
-        android:key="timetable_list"
-        android:negativeButtonText="@null"
-        android:positiveButtonText="@null"
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="timetable_switch"
+        android:summary="@string/pref_description_timetable"
         android:title="@string/pref_title_timetable" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="timetable_switch"
+        android:key="improved_classboard_switch"
+        android:summary="@string/pref_description_improved_classboard"
+        android:title="@string/pref_title_improved_classboard" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="improved_classboard_switch"
+        android:key="improved_timetable_switch"
+        android:summary="@string/pref_description_improved_timetable"
+        android:title="@string/pref_title_improved_timetable" />
 
     <ListPreference
         android:defaultValue="180"

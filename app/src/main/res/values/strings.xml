@@ -74,13 +74,14 @@
     <!-- Example settings for Data & Sync -->
     <string name="pref_header_gui">GUI</string>
 
-    <string name="pref_title_timetable">使用する時間割</string>
-    <string-array name="pref_timetable_list_titles">
-        <item>旧時間割</item>
-    </string-array>
-    <string-array name="pref_timetable_list_values">
-        <item>0</item>
-    </string-array>
+    <string name="pref_title_timetable">新しい時間割を利用する</string>
+    <string name="pref_description_timetable">OFFにすると，旧時間割を利用することができます</string>
+
+    <string name="pref_title_improved_classboard">関連のある休講・補講情報のみを表示する</string>
+    <string name="pref_description_improved_classboard">ONにすると，時間割に登録されている講義に対応する休講・補講情報のみを表示します</string>
+
+    <string name="pref_title_improved_timetable">休講・補講情報を時間割に反映する</string>
+    <string name="pref_description_improved_timetable">ONにすると，今週の休講・補講情報を時間割に反映します</string>
 
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string-array name="pref_sync_frequency_titles">
