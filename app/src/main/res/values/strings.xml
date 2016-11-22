@@ -56,6 +56,23 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+    <string name="pref_title_course">課程</string>
+    <string-array name="pref_course_list_titles">
+        <item>未設定</item>
+        <item>機械</item>
+        <item>電気・電子情</item>
+        <item>情報・知能</item>
+        <item>環境・生命</item>
+        <item>建築・都市</item>
+    </string-array>
+    <string-array name="pref_course_list_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
     <string-array name="pref_example_list_titles">
         <item>Always</item>

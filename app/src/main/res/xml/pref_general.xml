@@ -8,6 +8,14 @@
         android:negativeButtonText="@null"
         android:positiveButtonText="@null"
         android:title="@string/pref_title_grade" />
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_course_list_titles"
+        android:entryValues="@array/pref_course_list_values"
+        android:key="course_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_course" />
 
     <SwitchPreference
         android:defaultValue="true"
